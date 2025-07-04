@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Vacation Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .chat-container { width: 90%; max-width: 600px; margin: 40px auto; }
+        .messages { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; }
+        .msg { margin: 10px 0; }
+        .user { color: #0066cc; }
+        .bot { color: #008000; }
+        #inputForm { display: flex; gap: 10px; margin-top: 10px; }
+        #inputField { flex: 1; padding: 8px; }
+        button { padding: 8px 16px; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Vacation Chatbot</h2>
+        <div id="messages" class="messages"></div>
+        <form id="inputForm">
+            <input id="inputField" type="text" placeholder="Type your message..." required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script>
+        // Generate a random session ID for this browser session
+        const sessionId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        console.log('Session ID:', sessionId);
+        
+        const form = document.getElementById('inputForm');
+        const input = document.getElementById('inputField');
+        const messagesDiv = document.getElementById('messages');
+
+        function addMessage(text, sender) {
+            const div = document.createElement('div');
+            div.className = `msg ${sender}`;
+            div.textContent = text;
+            messagesDiv.appendChild(div);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        // Function to send a message to the server
+        async function sendMessage(messageText) {
+            try {
+                const res = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        request_type: 'text',
+                        request_content: messageText,
+                        request_session: sessionId
+                    })
+                });
+                const data = await res.json();
+                addMessage(`Bot: ${data.response_content}`, 'bot');
+                return data;
+            } catch (err) {
+                addMessage('Error contacting server.', 'bot');
+                console.error('Error:', err);
+            }
+        }
+
+        // Automatically call the /chat API when the page loads to get the initial greeting
+        window.addEventListener('DOMContentLoaded', async () => {
+            console.log('Requesting initial greeting from agent...');
+            await sendMessage('');
+        });
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userText = input.value.trim();
+            if (!userText) return;
+            addMessage(`You: ${userText}`, 'user');
+            input.value = '';
+            await sendMessage(userText);
+        });
+    </script>
+</body>
+</html>
