@@ -1,0 +1,1753 @@
+{
+    "destination": "CENTRAL FLORIDA",
+    "campaign": "OP OB Club",
+    "availableDates": [
+        {
+            "firstNight": "2025-10-01",
+            "lastNight": "2025-10-03",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-02",
+                    "tours": [
+                        {
+                            "tourId": 2264492,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278143,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278720,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394528,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-03",
+                    "tours": [
+                        {
+                            "tourId": 2264968,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277791,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278368,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394529,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-02",
+            "lastNight": "2025-10-04",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-03",
+                    "tours": [
+                        {
+                            "tourId": 2264968,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277791,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278368,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394529,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-04",
+                    "tours": [
+                        {
+                            "tourId": 2263484,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278004,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278581,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394530,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-03",
+            "lastNight": "2025-10-05",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-04",
+                    "tours": [
+                        {
+                            "tourId": 2263484,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278004,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278581,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394530,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-05",
+                    "tours": [
+                        {
+                            "tourId": 2264064,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278076,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278653,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394531,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-04",
+            "lastNight": "2025-10-06",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-05",
+                    "tours": [
+                        {
+                            "tourId": 2264064,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278076,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278653,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394531,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-06",
+                    "tours": [
+                        {
+                            "tourId": 2264577,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277861,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278438,
+                            "numberAvailable": 4,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394532,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-05",
+            "lastNight": "2025-10-07",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-06",
+                    "tours": [
+                        {
+                            "tourId": 2264577,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277861,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278438,
+                            "numberAvailable": 4,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394532,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-07",
+                    "tours": [
+                        {
+                            "tourId": 2263096,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277936,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278513,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394533,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-06",
+            "lastNight": "2025-10-08",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-07",
+                    "tours": [
+                        {
+                            "tourId": 2263096,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277936,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278513,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394533,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-08",
+                    "tours": [
+                        {
+                            "tourId": 2263564,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278298,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278875,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394534,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-07",
+            "lastNight": "2025-10-09",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-08",
+                    "tours": [
+                        {
+                            "tourId": 2263564,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278298,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278875,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394534,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-09",
+                    "tours": [
+                        {
+                            "tourId": 2266073,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277798,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278375,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394535,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-08",
+            "lastNight": "2025-10-10",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-09",
+                    "tours": [
+                        {
+                            "tourId": 2266073,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277798,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278375,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394535,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-10",
+                    "tours": [
+                        {
+                            "tourId": 2262643,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278009,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278586,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394536,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-09",
+            "lastNight": "2025-10-11",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-10",
+                    "tours": [
+                        {
+                            "tourId": 2262643,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278009,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278586,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394536,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-11",
+                    "tours": [
+                        {
+                            "tourId": 2264142,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278223,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278800,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394537,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-10",
+            "lastNight": "2025-10-12",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-11",
+                    "tours": [
+                        {
+                            "tourId": 2264142,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278223,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278800,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394537,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-12",
+                    "tours": [
+                        {
+                            "tourId": 2265633,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277862,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278439,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394538,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-11",
+            "lastNight": "2025-10-13",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-12",
+                    "tours": [
+                        {
+                            "tourId": 2265633,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277862,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278439,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394538,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-13",
+                    "tours": [
+                        {
+                            "tourId": 2262904,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278070,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278647,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394539,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-12",
+            "lastNight": "2025-10-14",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-13",
+                    "tours": [
+                        {
+                            "tourId": 2262904,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278070,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278647,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394539,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-14",
+                    "tours": [
+                        {
+                            "tourId": 2265360,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278291,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278868,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394540,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-13",
+            "lastNight": "2025-10-15",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-14",
+                    "tours": [
+                        {
+                            "tourId": 2265360,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278291,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278868,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394540,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-15",
+                    "tours": [
+                        {
+                            "tourId": 2265829,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277792,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278369,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394541,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-14",
+            "lastNight": "2025-10-16",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-15",
+                    "tours": [
+                        {
+                            "tourId": 2265829,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277792,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278369,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394541,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-16",
+                    "tours": [
+                        {
+                            "tourId": 2263381,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278141,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278718,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394542,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-15",
+            "lastNight": "2025-10-17",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-16",
+                    "tours": [
+                        {
+                            "tourId": 2263381,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278141,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278718,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394542,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-17",
+                    "tours": [
+                        {
+                            "tourId": 2264813,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278207,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278784,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394543,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-16",
+            "lastNight": "2025-10-18",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-17",
+                    "tours": [
+                        {
+                            "tourId": 2264813,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278207,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278784,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394543,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-18",
+                    "tours": [
+                        {
+                            "tourId": 2266302,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277988,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278565,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394544,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-17",
+            "lastNight": "2025-10-19",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-18",
+                    "tours": [
+                        {
+                            "tourId": 2266302,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277988,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278565,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394544,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-19",
+                    "tours": [
+                        {
+                            "tourId": 2263852,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278064,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278641,
+                            "numberAvailable": 8,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394545,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-18",
+            "lastNight": "2025-10-20",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-19",
+                    "tours": [
+                        {
+                            "tourId": 2263852,
+                            "numberAvailable": 5,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278064,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278641,
+                            "numberAvailable": 8,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394545,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-20",
+                    "tours": [
+                        {
+                            "tourId": 2265297,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278283,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278860,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394546,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-19",
+            "lastNight": "2025-10-21",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-20",
+                    "tours": [
+                        {
+                            "tourId": 2265297,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278283,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278860,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394546,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-21",
+                    "tours": [
+                        {
+                            "tourId": 2265712,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277916,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278493,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394547,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-20",
+            "lastNight": "2025-10-22",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-21",
+                    "tours": [
+                        {
+                            "tourId": 2265712,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277916,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278493,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394547,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-22",
+                    "tours": [
+                        {
+                            "tourId": 2264252,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278131,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278708,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394548,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-21",
+            "lastNight": "2025-10-23",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-22",
+                    "tours": [
+                        {
+                            "tourId": 2264252,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278131,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278708,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394548,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-23",
+                    "tours": [
+                        {
+                            "tourId": 2264756,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277775,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278352,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394549,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-22",
+            "lastNight": "2025-10-24",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-23",
+                    "tours": [
+                        {
+                            "tourId": 2264756,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277775,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278352,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394549,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-24",
+                    "tours": [
+                        {
+                            "tourId": 2263195,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278566,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394550,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-23",
+            "lastNight": "2025-10-25",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-24",
+                    "tours": [
+                        {
+                            "tourId": 2263195,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278566,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394550,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-25",
+                    "tours": [
+                        {
+                            "tourId": 2263786,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278108,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278685,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394551,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-24",
+            "lastNight": "2025-10-26",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-25",
+                    "tours": [
+                        {
+                            "tourId": 2263786,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278108,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278685,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394551,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-26",
+                    "tours": [
+                        {
+                            "tourId": 2265244,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277744,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278321,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394552,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-25",
+            "lastNight": "2025-10-27",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-26",
+                    "tours": [
+                        {
+                            "tourId": 2265244,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277744,
+                            "numberAvailable": 3,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278321,
+                            "numberAvailable": 7,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394552,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-27",
+                    "tours": [
+                        {
+                            "tourId": 2262746,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277964,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278541,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394553,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-26",
+            "lastNight": "2025-10-28",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-27",
+                    "tours": [
+                        {
+                            "tourId": 2262746,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277964,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278541,
+                            "numberAvailable": 3,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394553,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-28",
+                    "tours": [
+                        {
+                            "tourId": 2264242,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278181,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278758,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394554,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-27",
+            "lastNight": "2025-10-29",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-28",
+                    "tours": [
+                        {
+                            "tourId": 2264242,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278181,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278758,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394554,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-29",
+                    "tours": [
+                        {
+                            "tourId": 2265526,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277825,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278402,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394555,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-28",
+            "lastNight": "2025-10-30",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-29",
+                    "tours": [
+                        {
+                            "tourId": 2265526,
+                            "numberAvailable": 2,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277825,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278402,
+                            "numberAvailable": 6,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394555,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-30",
+                    "tours": [
+                        {
+                            "tourId": 2263051,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277898,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278475,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394556,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-29",
+            "lastNight": "2025-10-31",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-30",
+                    "tours": [
+                        {
+                            "tourId": 2263051,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277898,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278475,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394556,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-10-31",
+                    "tours": [
+                        {
+                            "tourId": 2263576,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278841,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394557,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-30",
+            "lastNight": "2025-11-01",
+            "tourDates": [
+                {
+                    "tourDate": "2025-10-31",
+                    "tours": [
+                        {
+                            "tourId": 2263576,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278841,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394557,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-11-01",
+                    "tours": [
+                        {
+                            "tourId": 2266014,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277724,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278301,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394558,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        },
+        {
+            "firstNight": "2025-10-31",
+            "lastNight": "2025-11-02",
+            "tourDates": [
+                {
+                    "tourDate": "2025-11-01",
+                    "tours": [
+                        {
+                            "tourId": 2266014,
+                            "numberAvailable": 4,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2277724,
+                            "numberAvailable": 1,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278301,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394558,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                },
+                {
+                    "tourDate": "2025-11-02",
+                    "tours": [
+                        {
+                            "tourId": 2262621,
+                            "numberAvailable": 3,
+                            "time": "13:00:00"
+                        },
+                        {
+                            "tourId": 2278119,
+                            "numberAvailable": 2,
+                            "time": "11:00:00"
+                        },
+                        {
+                            "tourId": 2278696,
+                            "numberAvailable": 5,
+                            "time": "08:30:00"
+                        },
+                        {
+                            "tourId": 2394559,
+                            "numberAvailable": 6,
+                            "time": "18:00:00"
+                        }
+                    ]
+                }
+            ],
+            "peakFeesDates": []
+        }
+    ]
+}

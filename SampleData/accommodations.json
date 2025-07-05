@@ -1,0 +1,159 @@
+[
+  {
+    "firstNight": "2025-10-01",
+    "lastNight": "2025-10-03",
+    "propertyCode": "discv",
+    "slug": "orange-lake-resort",
+    "name": "Holiday Inn Club Vacations at Orange Lake Resort",
+    "imageUrl": null,
+    "address": {
+      "street1": "8505 W. Irlo Bronson Memorial Hwy",
+      "city": "Kissimmee",
+      "state": "FL",
+      "zip": "34747"
+    },
+    "sortOrder": 0,
+    "roomTypes": [
+      {
+        "propertyRoomTypeId": 46,
+        "roomTypeCode": "Resort-1BD",
+        "description": "Resort - 1 bedroom",
+        "occupancy": 4,
+        "roomInventories": [
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-01T00:00:00",
+            "numberAvailable": 2,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-02T00:00:00",
+            "numberAvailable": 2,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-03T00:00:00",
+            "numberAvailable": 2,
+            "roomRate": 79,
+            "checkInGroup": null,
+            "upgradeRate": 45.86,
+            "extraRoomRate": 112.86
+          }
+        ]
+      },
+      {
+        "propertyRoomTypeId": 47,
+        "roomTypeCode": "Resort-2BD",
+        "description": "Resort - 2 bedroom",
+        "occupancy": 8,
+        "roomInventories": [
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-01T00:00:00",
+            "numberAvailable": 457,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-02T00:00:00",
+            "numberAvailable": 457,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-03T00:00:00",
+            "numberAvailable": 457,
+            "roomRate": 99,
+            "checkInGroup": null,
+            "upgradeRate": 74.43,
+            "extraRoomRate": 141.43
+          }
+        ]
+      },
+      {
+        "propertyRoomTypeId": 217,
+        "roomTypeCode": "Resort-2BD-Upg",
+        "description": "Resort - 2 Bedroom Upg",
+        "occupancy": 8,
+        "roomInventories": [
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-01T00:00:00",
+            "numberAvailable": 33,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-02T00:00:00",
+            "numberAvailable": 33,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-03T00:00:00",
+            "numberAvailable": 33,
+            "roomRate": 99,
+            "checkInGroup": null,
+            "upgradeRate": 74.43,
+            "extraRoomRate": 141.43
+          }
+        ]
+      },
+      {
+        "propertyRoomTypeId": 173,
+        "roomTypeCode": "Studio",
+        "description": "Studio",
+        "occupancy": 4,
+        "roomInventories": [
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-01T00:00:00",
+            "numberAvailable": 52,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-02T00:00:00",
+            "numberAvailable": 52,
+            "roomRate": 65,
+            "checkInGroup": null,
+            "upgradeRate": 25.86,
+            "extraRoomRate": 92.86
+          },
+          {
+            "inventoryId": null,
+            "dateAvailable": "2025-10-03T00:00:00",
+            "numberAvailable": 52,
+            "roomRate": 79,
+            "checkInGroup": null,
+            "upgradeRate": 45.86,
+            "extraRoomRate": 112.86
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -15,5 +15,25 @@ class PackageResponseModel(BaseModel):
     packageName: str = Field(description="Name of the package")
     
     # Fields with different structure in JSON
-    destination: List[Dict[str, Any]] = Field(default=[], description="Destination information")
+    destination: List[Dict[str, Any]] = Field(default=[], description="Primary destination information")
+    alternateDestinations: List[Dict[str, Any]] = Field(default=[], description="Alternative destinations information")
+    
+    @property
+    def length_of_stay(self) -> int:
+        """
+        Extract the length of stay from the package name.
+        Example: "3 Night Resort" -> 3
+        
+        Returns:
+            int: The length of stay in nights, or 0 if not found
+        """
+        import re
+        if not self.packageName:
+            return 0
+            
+        # Extract the first number from the package name
+        match = re.search(r'\d+', self.packageName)
+        if match:
+            return int(match.group())
+        return 0
     

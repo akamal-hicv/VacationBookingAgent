@@ -46,36 +46,72 @@ class PackageDetails:
             logger.error(f"Error loading package data: {e}", exc_info=True)
     
     @kernel_function(
-        description="Get a summary of the package details",
+        description="Get a package details",
         name="get_package_summary"
     )
-    def get_package_summary(self) -> str:
+    def get_package_summary(self) -> PackageResponseModel:
         """
-        Get a summary of all available package details.
+        Get the package model object for the first available package.
         
         Returns:
-            A string containing summaries of all available packages
+            A PackageResponseModel object containing package details
         """
         logger.info("get_package_summary function called")
         if not self._packages:
-            logger.warning("No packages available to summarize")
-            return "No packages available."
-            
-        logger.info(f"Returning summary for package: {self._packages[0].packageName}")
+            logger.warning("No packages available")
+            return None
+        
+        logger.info(f"Returning package model: {self._packages[0].packageName}")
         return self._format_package_summary(self._packages[0])
             
-    def _format_package_summary(self, package: PackageResponseModel) -> str:
-        """Format a package summary string."""
-        logger.debug(f"Formatting summary for package ID: {package.packageId}")
-        summary = f"Package Summary: {package.packageName} (ID: {package.packageId})\n\n"
+    def _format_package_summary(self, package: PackageResponseModel) -> PackageResponseModel:
+        """Return the package model directly."""
+        logger.debug(f"Returning package model for ID: {package.packageId}")
+        return package
         
-        # Extract destination name from the destination list
-        destination_name = "Unknown destination"
-        if package.destination and len(package.destination) > 0:
-            destination_name = package.destination[0].get("destination", "Unknown destination")
+    @kernel_function(
+        description="Verify if a zip code is valid for a confirmed destination",
+        name="ZipCodeVerification"
+    )
+    def ZipCodeVerification(self, confirmed_user_destination: str, user_input_zipcode: str) -> str:
+        """
+        Verify if a user-provided zip code is valid for a confirmed destination.
+        
+        Args:
+            confirmed_user_destination: The destination name that the user has confirmed
+            user_input_zipcode: The zip code provided by the user
             
-        summary += f"Destination: {destination_name}\n"
-        summary += f"Accommodation: {package.accommodationType}\n"
-        summary += f"Package Expiration: {package.packageExpiration}\n"
-
-        return summary
+        Returns:
+            A string indicating whether the zip code is valid for the destination
+        """
+        logger.info(f"Verifying zip code {user_input_zipcode} for destination {confirmed_user_destination}")
+        
+        if not self._packages:
+            logger.warning("No packages available to verify zip code")
+            return "Unable to verify zip code: No package data available."
+        
+        # Normalize inputs
+        confirmed_user_destination = confirmed_user_destination.strip().upper()
+        user_input_zipcode = user_input_zipcode.strip()
+        
+        # Find the destination in the package data
+        for package in self._packages:
+            for dest in package.destination:
+                dest_name = dest.get("destination", "")
+                
+                # Check if this is the confirmed destination
+                if dest_name and dest_name.upper() == confirmed_user_destination:
+                    logger.info(f"Found matching destination: {dest_name}")
+                    
+                    # Check if the zip code is in the non-qualified zip codes list
+                    nq_zip_codes = dest.get("nqZipCodes", [])
+                    
+                    if user_input_zipcode in nq_zip_codes:
+                        logger.info(f"Zip code {user_input_zipcode} is NOT valid for destination {dest_name}")
+                        return f"The zip code {user_input_zipcode} is not valid for {dest_name}. Please provide a different zip code."
+                    else:
+                        logger.info(f"Zip code {user_input_zipcode} is valid for destination {dest_name}")
+                        return f"The zip code {user_input_zipcode} is valid for {dest_name}. Let's continue with your vacation booking."
+        
+        logger.warning(f"No matching destination found for {confirmed_user_destination}")
+        return f"Unable to verify zip code: Destination '{confirmed_user_destination}' not found in available packages."
