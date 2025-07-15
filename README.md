@@ -1,7 +1,7 @@
 
 # AI Vacation Package Sales Agent
 
-A conversational AI agent for selling vacation packages using Microsoft's Semantic Kernel, Azure OpenAI, and FastAPI. This agent guides potential customers through the vacation booking process with a natural, step-by-step conversation flow.
+A conversational AI agent for helping the user for completing the vacation packages using Microsoft's Semantic Kernel, Azure OpenAI, and FastAPI. This agent guides potential customers through the vacation booking process with a natural, step-by-step conversation flow.
 
 ## Project Overview
 
