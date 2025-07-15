@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Vacation Chatbot</title>
+    <title>Vacation ChatAgent</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .chat-container { width: 90%; max-width: 600px; margin: 40px auto; }
         .messages { border: 1px solid #ccc; padding: 10px; height: 400px; overflow-y: scroll; }
         .msg { margin: 10px 0; }
-        .user { color: #0066cc; }
-        .bot { color: #008000; }
+        .User { color: #0066cc; }
+        .Agent { color: #008000; }
         #inputForm { display: flex; gap: 10px; margin-top: 10px; }
         #inputField { flex: 1; padding: 8px; }
         button { padding: 8px 16px; }
@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="chat-container">
-        <h2>Vacation Chatbot</h2>
+        <h2>Vacation ChatAgent</h2>
         <div id="messages" class="messages"></div>
         <form id="inputForm">
             <input id="inputField" type="text" placeholder="Type your message..." required />
@@ -54,10 +54,10 @@
                     })
                 });
                 const data = await res.json();
-                addMessage(`Bot: ${data.response_content}`, 'bot');
+                addMessage(`Agent: ${data.response_content}`, 'Agent');
                 return data;
             } catch (err) {
-                addMessage('Error contacting server.', 'bot');
+                addMessage('Error contacting server.', 'Agent');
                 console.error('Error:', err);
             }
         }
@@ -70,11 +70,11 @@
 
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
-            const userText = input.value.trim();
-            if (!userText) return;
-            addMessage(`You: ${userText}`, 'user');
+            const UserText = input.value.trim();
+            if (!UserText) return;
+            addMessage(`You: ${UserText}`, 'User');
             input.value = '';
-            await sendMessage(userText);
+            await sendMessage(UserText);
         });
     </script>
 </body>

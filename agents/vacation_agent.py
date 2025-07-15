@@ -71,7 +71,7 @@ class VacationChatAgent:
                 You have access to package details through the PackageDetails tool, availability information through the AvailabilityDetails tool, and accommodation options through the AccommodationDetails tool.
                 Guide the user to flowing conversation:
                 1. You need to help the user to confirm the destination.(The inital message has the destination and package details)
-                2. If the user is not ready to go with the primary destination then suggest the alternative destinations. Always suggest the top 5 alternative destinations and ask do you have any specific alternative destination if so check the alternative destination is available in the package or not.
+                2. If the user is not ready to go with the primary destination then suggest the alternative destination and ask do you have any specific alternative destination if so check the alternative destination is available in the package or not.
                 3. If the user confirms the destination, ask to provide the zip code of current location. 
                 4. If the user provides the zip code, verify the zip code using the ZipCodeVerification tool in PackageDetails plugin.
                 5. After zip code verification, ask the user for the number of guests .
@@ -164,7 +164,6 @@ class VacationChatAgent:
         
             # Extract the actual PackageResponseModel from the FunctionResult
             package_model = function_result.value
-        
             # Log the package details
             logger.info(f"Retrieved package model: {package_model.packageId}")
         
@@ -177,8 +176,7 @@ class VacationChatAgent:
             alternative_destinations = []
             if hasattr(package_model, 'alternateDestinations') and package_model.alternateDestinations:
                 for alt_dest in package_model.alternateDestinations:
-                    if alt_dest.get("isActive", False) and alt_dest.get("isMarketable", False):
-                        alternative_destinations.append(alt_dest.get("destination", ""))
+                    alternative_destinations.append(alt_dest.get("destination", ""))
             
             # Store destinations in user_context for later use
             self.user_context["package_destination"] = destination
