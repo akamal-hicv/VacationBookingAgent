@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 class PackageResponseModel(BaseModel):
     """Model for vacation package details."""
     # Required fields
-    campaignId: str = Field(description="Campaign identifier")
+    initiative: str = Field(description="Campaign identifier")
     packageId: str = Field(description="Unique identifier for the package")
     packageExpiration: str = Field(description="Package expiration date")
     accommodationType: str = Field(description="Type of accommodation")

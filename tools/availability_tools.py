@@ -5,6 +5,9 @@ import json
 import os
 import logging
 from typing import List, Optional
+from datetime import datetime, timedelta
+from datasource.mulesoft_service import MuleSoftService
+from system.config import PACKAGE_ID
 
 from semantic_kernel.functions.kernel_function_decorator import kernel_function
 from models.availability_models import (
@@ -21,67 +24,84 @@ logger = logging.getLogger(__name__)
 
 
 class AvailabilityDetails:
-    """Class for handling availability-related operations."""
-    
     def __init__(self):
-        """Initialize the AvailabilityDetails class."""
-        self._availabilities = None
-        self.load_availabilities()
-    
-    def load_availabilities(self) -> None:
-        """
-        Load availability data from the JSON file.
-        """
-        try:
-            # Get the absolute path to the JSON file
-            current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-            json_file_path = os.path.join(current_dir, "SampleData", "availabilities.json")
-            
-            logger.info(f"Loading availabilities from {json_file_path}")
-            
-            with open(json_file_path, "r") as file:
-                self._availabilities = json.load(file)
-                logger.info("Availabilities loaded successfully")
-        except Exception as e:
-            logger.error(f"Error loading availabilities: {str(e)}")
-            self._availabilities = None
-    
+        self._availabilities = {}
+
     @kernel_function(
-        description="Get availability information for a date range",
+        description="Get availability information for a date range. Package details should be obtained from a previous PackageDetails-get_package_summary call.",
         name="get_availability"
     )
-    def get_availability(self, number_of_guests: int, search_start_date: str, search_end_date: str) -> AvailabilityResponse:
+    def get_availability(
+        self, 
+        number_of_guests: int, 
+        search_start_date: str, 
+        search_end_date: str,
+        destination: str,
+        length_of_stay: int,
+        campaign_initiative_id: str,
+        accommodation_type: str
+    ) -> AvailabilityResponse:
         """
-        Get availability information for a specified date range and number of guests.
+        Load availability data dynamically from MuleSoft API using package details and user inputs.
+        All package information must be provided as arguments from a previous PackageDetails call.
         
         Args:
             number_of_guests: Number of guests for the stay
             search_start_date: Start date for availability search in YYYY-MM-DD format
             search_end_date: End date for availability search in YYYY-MM-DD format
+            destination: Destination that the user confirms
+            package_id: Package ID(packageId field) available in the PackageDetails
+            length_of_stay: Length of stay(lengthOfStay field) available in the PackageDetails 
+            campaign_initiative_id: Initiative(initiative field) available in the PackageDetails
+            accommodation_type: Accommodation type(accommodationType field) available in the PackageDetails
             
         Returns:
-            An AvailabilityResponse object containing availability details
+            AvailabilityResponse object with availability data
         """
-        logger.info(f"get_availability function called with guests: {number_of_guests}, start: {search_start_date}, end: {search_end_date}")
+        logger.info(f"load_availabilities called with guests: {number_of_guests}, start: {search_start_date}, end: {search_end_date}, destination: {destination}")
         
-        if not self._availabilities:
-            logger.warning("No availabilities data loaded")
+        try:
+            package_id = PACKAGE_ID 
+        
+            logger.info(f"Using package data - ID: {package_id}, Destination: {destination}, "
+                    f"Length: {length_of_stay}, Campaign: {campaign_initiative_id}, Type: {accommodation_type}")
+            
+            # Load availability data from MuleSoft API
+
+            mulesoft_service = MuleSoftService()
+            api_response = mulesoft_service.get_availabilities_mulesoft_api(
+                destination=destination.upper(),
+                package_id=package_id,
+                length_of_stay=length_of_stay,
+                campaign_intitiative_id=campaign_initiative_id,
+                accommodation_type=accommodation_type.lower(),
+                number_of_guests=number_of_guests,
+                search_start_date=search_start_date,
+                search_end_date=search_end_date
+            )
+
+            self._availabilities = api_response
+
+            # Filter available dates that overlap with the search range
+            filtered_data = self._availabilities.copy()
+            filtered_data["availableDates"] = [
+                date_range for date_range in self._availabilities.get("availableDates", [])
+                if (date_range["firstNight"] >= search_start_date and 
+                    date_range["lastNight"] <= search_end_date)
+            ]
+        
+            # Convert filtered JSON data to Pydantic models using our helper method
+            response = self._format_availability_summary(filtered_data)
+            
+            logger.info(f"Returning availability response with {len(response.availableDates)} date ranges")
+            return response
+    
+        except Exception as e:
+            error_msg = f"Failed to load availability data: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            self._availabilities = None
             return None
         
-        # Filter available dates that fall within the search range
-        filtered_data = self._availabilities.copy()
-        filtered_data["availableDates"] = [
-            date_range for date_range in self._availabilities.get("availableDates", [])
-            if (date_range["firstNight"] >= search_start_date and 
-                date_range["lastNight"] <= search_end_date)
-        ]
-        
-        # Convert filtered JSON data to Pydantic models using our helper method
-        response = self._format_availability_summary(filtered_data)
-        
-        logger.info(f"Returning availability response with {len(response.availableDates)} date ranges")
-        return response
-    
     @kernel_function(
         description="Get availability summary with tour dates and times",
         name="get_availability_summary"
@@ -136,10 +156,10 @@ class AvailabilityDetails:
                     tours=tours
                 )
                 tour_dates.append(tour_date)
-            
+
             available_date_range = AvailableDateRange(
                 firstNight=date_range.get("firstNight"),
-                lastNight=date_range.get("lastNight"),
+                lastNight=(datetime.strptime(date_range.get("lastNight"), "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d"),
                 tourDates=tour_dates
             )
             available_dates.append(available_date_range)
