@@ -14,7 +14,7 @@ from models.request_models import ChatRequest
 from models.response_models import ChatResponse
 
 from agents.vacation_agent import VacationChatAgent
-from agent_garden.agent_cache import agent_cache
+from agent_cache.agent_cache import agent_cache
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, 
